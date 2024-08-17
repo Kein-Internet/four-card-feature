@@ -148,7 +148,6 @@ span {
 .feature__title,
 h3 {
   color: var(--clr-blue-700);
-  font-width: var(--fw-bold);
 }
 
 .feature__title,
