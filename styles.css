@@ -159,6 +159,7 @@ h3 {
 
 h3 {
   font-size: var(--fs-large);
+  font-weight: var(--fw-bold);
 }
 
 h3 ~ p {
