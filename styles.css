@@ -137,7 +137,6 @@ body {
 
 .feature__title {
   font-size: var(--fs-larger);
-  font-weight: var(--fw-bold);
 }
 
 span {
@@ -149,6 +148,7 @@ span {
 .feature__title,
 h3 {
   color: var(--clr-blue-700);
+  font-weight: 500;
 }
 
 .feature__title,
