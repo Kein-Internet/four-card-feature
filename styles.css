@@ -142,13 +142,12 @@ body {
 span {
   display: block;
   font-weight: var(--fw-thin);
-  font-size: calc(24.2rem / 16);
 }
 
 .feature__title,
 h3 {
   color: var(--clr-blue-700);
-  font-weight: 500;
+  font-weight: var(--fw-bold);
 }
 
 .feature__title,
@@ -156,11 +155,14 @@ h3 {
   text-align: center;
 }
 
+* {
+  outline: auto;
+}
+
 /* card styling */
 
 h3 {
   font-size: var(--fs-large);
-  font-weight: 500;
 }
 
 h3 ~ p {
@@ -223,6 +225,11 @@ h3 ~ p {
 
   span {
     font-size: calc(36.5rem / 16);
+  }
+
+  .feature__desc {
+    margin: 0 auto;
+    max-width: 55%;
   }
 
   .card {
